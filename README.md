@@ -51,18 +51,7 @@ python Score2Pymol.py -i PymolParams.ini
 3. `PlotSyncDyn.py`: Generates dynamic correlation maps
 4. `Score2Pymol.py`: Visualizes scores on protein structure
 
-## SyncDyn Score
-
-The score for each residue is computed as:
-
-```
-SyncDyn Score_i = (N_i - 1) / N_total
-```
-
-where N_i is the number of correlations above threshold for residue i, and N_total is the total number of residues.
-
-
-
+ 
 ## Contact
 
 Manu Veliparambil Subrahmanian (mvelipar@umn.edu)
